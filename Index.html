@@ -1,71 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKANNAME</title>
-<!-- CSS only -->
+ <title>GETTING AKANNAME</title>
+    <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
  <link rel="stylesheet" href="CCC/custom.css">
 </head>
-<body background="Images/Image2.jpg">
+<style>p{
+    color: rgb(13, 12, 12);
+    text-decoration:underline
+    
+}
+div{
+    color: crimson;
+    text-decoration: maroon
     
 
- <img src="images/image2.jpg" width="300" height="150" alt="images/Image2.jpg" >
- <p>
-    Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Fill the form below to get your Ghanian Akhan name.
- </p>
+}</style>
 
-<div style="background-image: ;"></div>
-<form class="row g-3">
-    <div class="col-md-4">
-      <label for="validationDefault01" class="form-label">First name</label>
-      <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-    </div>
-    <div class="col-md-4">
-      <label for="validationDefault02" class="form-label">Last name</label>
-      <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
-    </div>
-    <div class="col-md-4">
-      <label for="validationDefaultUsername" class="form-label">Username</label>
-      <div class="input-group">
-        <span class="input-group-text" id="inputGroupPrepend2">@</span>
-        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <label for="validationDefault03" class="form-label">DD/MM/YY</label>
-      <input type="text" class="form-control" id="validationDefault03" required>
-    </div>
-    <div class="col-md-3">
-      <label for="validationDefault04" class="form-label">Gender</label>
-      <select class="form-select" id="validationDefault04" required>
-        <option>Male</option>
-        <option>Female</option>
-      </select>
-    </div>
-    <div class="col-md-3">
-      <label for="validationDefault05" class="form-label">State
-
+<body background="Images/mt1.jpg"></body>
+<div>
+    <H1>GETTING AKANNAME</H1>
+</div>
+<p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+</p>
+<h2>Days And Names</h2>
+<p>Male Names</p>
+<ul>
+    <li>Sunday: Kwasi</li>
+    <li>Monday: Kwadwo</li>
+    <li>Tuesday: Kwaku</li>
+    <li>Wednesday: Kwaku</li>
+    <li>Thursday: Yaw</li>
+    <li>Friady: Kofi</li>
+    <li>Saturday: Kwame</li>
+</ul>
+<p>Female Names</p>
+<ul>
+    <li>Sunday: Akosua</li>
+    <li>Monday: Adwoa</li>
+    <li>Tuesday: Abenaa</li>
+    <li>Wednesday: Akua</li>
+    <li>Thursday: Yaa</li>
+    <li>Friady: Afua</li>
+    <li>Saturday: Ama</li>
+</ul>
+<p>For More Information About Kan Names Visit
+    <a href="https://en.wikipedia.org/wiki/Akan_names"></a>
+</p>
+<p>
+    To generate Akan names, input year, month and date then select gender.
+    <p>
+      <form class="akanform" onsubmit="return akanName()">
+      <label for="century-of-birth">
+      Century:
+      <input id="century-input" type="number" name="century-of-birth" placeholder="CC" value="" required>
+      <label for="year-of-birth">
+      Year:
+      <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
       </label>
-      <input type="text" class="form-control" id="validationDefault05" required>
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-        <label class="form-check-label" for="invalidCheck2">
-          Agree to terms and conditions
+      <label for="month-of-birth">
+      Month:
+      <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+      </label>
+      <label for="day-of-birth">
+      Date:
+      <input id="date-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+      </label>
+</p>
+<p>
+    <label for="gender">
+        <p>Gender Selection: </p>
+        <br>Male
+        <input id="male-input" type="radio" name="gender" value="male" required>
+        <br>Female
+        <input id="female-input" type="radio" name="gender" value="female" required>
+      </label>
+      <p>Click Submit button.</p>
+        <label>
+            <input id="submit-name" type="submit" name="" value="Submit Name">
         </label>
-      </div>
-    </div>
-    <div class="col-12">
-      <button class="btn btn-primary" type="submit">Submit form</button>
-    </div>
-  </form> 
-
-<button src="JS/Script.js">Get Akhan Name</button>
+    </form>
+    <h4 id = display-name></h4>>Akan name is</h4>
+    <p id="outcome"></p>
+</p>
+<button onclick=>Get AkanName</button>
 <script> src="js/script.js"</script>
 </body>
 </html>
