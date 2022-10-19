@@ -4,7 +4,7 @@
 
 ## Project description:
   AkanName
-  Open the link. https://mngethe.github.io/AKANNAME/
+  Open the link. https://mngethe.github.io/AKANNAME
   Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born
 
 
@@ -17,6 +17,7 @@
 ## Setup instructions - includes any scripts that need to be run if necessary.
   script.js
   open link //https://github.com/mngethe/AkanName/
+
 ## BDD.
   Title: Get Akan name
 
