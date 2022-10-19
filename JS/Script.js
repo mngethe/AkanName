@@ -8,11 +8,13 @@ const DAYS_OF_THE_WEEK = {"sunday":"monday", "tuesday": "wednesday", "thursday":
     var gender = "null"
     var century ="null"
 
-get_user_input
-    user_day_of_birth, 10
-    user_month_of_birth, 11
-    user_year_of_birth, 1989
-    user_gender, F
+function get_user_input(){
+user_day_of_birth, 10
+user_month_of_birth, 11
+user_year_of_birth, 1989
+user_gender, F
+}
+
 
     //calculate day birth
     //get user's akanname
@@ -51,3 +53,4 @@ console.log("your name is" + userAkanName);
 
 
 
+ 

@@ -1,18 +1,22 @@
-Project name:
-  Margaret Ngethe
+## Project name:
+  AKANNAME GENERATOR
+  By{Margaret Njeri}
 
-Project description:
+## Project description:
   AKANNAME
+  Open the link https://https://mngethe.github.io/AkanName
   Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born
 
 
-Author(s) information:
+## Author(s) information:
   Margaret Ngethe
-  phone num:0720502929
+  njeringethe@gmail.com
 
-Setup instructions - includes any scripts that need to be run if necessary.
+{Akan name generator by Margaret Ngethe}
+
+## Setup instructions - includes any scripts that need to be run if necessary.
   script.js
-BDD.
+## BDD.
   Title: Get Akan name
 
    As a user.
@@ -20,15 +24,16 @@ BDD.
     so that I can get my Akan name
 
 
-Technologies used.
+## Technologies used.
    HTML
    CSS
    Javascript
    Git
 
 
-Contact information.
-  MARGARET
+## Contact information.
+  Email:njeringethe@gmail.com
 
-License and Copyright information.
+
+## License and Copyright information.
   (C).2022 Njeri Ngethe
