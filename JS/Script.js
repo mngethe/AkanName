@@ -52,5 +52,4 @@ var userAkanName = getakanName(10, 11, 1989,f);
 console.log("your name is" + userAkanName);
 
 
-
  
